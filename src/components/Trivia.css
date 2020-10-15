@@ -1,0 +1,94 @@
+.box {
+  background-color: rgb(54, 54, 54);
+  border: dotted 1px #26e988;
+  border-radius: 10px;
+}
+
+.box-container {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+h1 {
+  color: #26e988;
+}
+
+.box p {
+  color: white;
+}
+
+.fa-times-circle {
+  color: #f79412;
+}
+
+.fa-check-square {
+  color: #26e988;
+}
+
+.icons i {
+  font-size: 50px;
+}
+
+.icons i:hover {
+  cursor: pointer;
+}
+
+.icons i:first-child {
+  margin-right: 15px;
+}
+
+.icons h1 {
+  margin-left: 15px;
+}
+
+.box-title {
+  grid-column: 1/2;
+}
+
+.box-instructions {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+
+.box-container .submit {
+  grid-row: 3;
+  grid-column: 2;
+  border: none;
+  background-color: #1aaf6446;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition: 0.8s;
+}
+
+.box-container .submit:hover {
+  background-color: #26e988;
+  color: black;
+  transition: 0.8s;
+}
+
+.box-container .icons {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+.submit:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
