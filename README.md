@@ -1,3 +1,6 @@
+Here I made a trivia game. I used a api I found online and I used that data to populate my web app. I used react on the front end.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
